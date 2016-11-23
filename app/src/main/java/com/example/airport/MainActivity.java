@@ -32,9 +32,9 @@ public class MainActivity extends AppCompatActivity {
             add("Boupell SA de CV");
             // read as: "Heavenly Sandwiches" is closest
             // to the beacon with major 22504 and minor 48827
-            add("quando");
+            add("quando boupell");
             // "Green & Green Salads" is the next closest
-            add("HiHo");
+            add("Estimote beacons");
             // "Mini Panini" is the furthest away
         }});
         placesByBeacons.put("37878:25684", new ArrayList<String>() {{
@@ -46,6 +46,11 @@ public class MainActivity extends AppCompatActivity {
             add("El Escorial");
             add("Arco de la calzada");
             add("Expora science center");
+        }});
+        placesByBeacons.put("589:58314", new ArrayList<String>() {{
+            add("La alhambra");
+            add("Parque del venado");
+            add("Cerro del gigante");
         }});
         PLACES_BY_BEACONS = Collections.unmodifiableMap(placesByBeacons);
     }
