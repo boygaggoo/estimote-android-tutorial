@@ -115,7 +115,7 @@ public class SensorsActivity extends  BaseActivity {
             }
 
             @Override public void onFailure() {
-                showToast("Unable to read temperature from beacon");
+                showToast("No se ha podido leer la temperatura");
             }
         });
     }
@@ -137,9 +137,9 @@ public class SensorsActivity extends  BaseActivity {
         runOnUiThread(new Runnable() {
             @Override public void run() {
                 if (motionState != null) {
-                    motionView.setText(motionState == MotionState.MOVING ? "In Motion" : "Not in motion");
+                    motionView.setText(motionState == MotionState.MOVING ? "En movimiento" : "Sin movimiento");
                 } else {
-                    motionView.setText("Disabled");
+                    motionView.setText("Deshabilitado");
                 }
             }
         });
