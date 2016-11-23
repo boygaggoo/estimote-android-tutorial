@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">qExplorer</string>
+
+    <string name="buscando">Buscando Beacons</string>
+    <string name="action_settings">Configuracion</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_show_ad">ShowAdActivity</string>
+</resources>
